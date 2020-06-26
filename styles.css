@@ -1,0 +1,48 @@
+:root {
+  --Pale-Blue: hsl(243, 100%, 93%);
+  --Grayish-Blue: hsl(229, 7%, 55%);
+  --Dark-Blue: hsl(228, 56%, 26%);
+  --Very-Dark-Blue: hsl(229, 57%, 11%);
+}
+
+body {
+  height: 0;
+  width: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  background-color: var(--Very-Dark-Blue);
+  background-image: url(/images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  background-size: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.fylo-container {
+  height: 200px;
+  width: 500px;
+  padding-top: 1.9em;
+  font-weight: 700px;
+  border: solid 1px red;
+  margin: 50px;
+  background-color: var(--Dark-Blue);
+}
+
+.fylo-container_icons img {
+  background-color: var(--Very-Dark-Blue);
+}
+
+.storage-container {
+  height: 200px;
+  width: 350px;
+  border: solid 1px red;
+}

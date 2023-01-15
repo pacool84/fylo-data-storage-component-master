@@ -1,10 +1,3 @@
-:root {
-  --Pale-Blue: hsl(243, 100%, 93%);
-  --Grayish-Blue: hsl(229, 7%, 55%);
-  --Dark-Blue: hsl(228, 56%, 26%);
-  --Very-Dark-Blue: hsl(229, 57%, 11%);
-}
-
 body {
   height: 0;
   width: 0;
@@ -28,13 +21,34 @@ body {
 }
 
 .fylo-container {
-  height: 200px;
-  width: 500px;
+  height: 150px;
+  width: 310px;
+  margin: 50px;
   padding-top: 1.9em;
   font-weight: 700px;
-  border: solid 1px red;
-  margin: 50px;
+  border-top-right-radius: 120px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   background-color: var(--Dark-Blue);
+}
+
+.fylo-container_logo {
+  margin-bottom: 25px;
+}
+.fylo-container_logo img {
+  width: 90px;
+  height: 30px;
+  padding-left: 40px;
+}
+
+.fylo-container_icons {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 120px;
 }
 
 .fylo-container_icons img {
@@ -45,4 +59,11 @@ body {
   height: 200px;
   width: 350px;
   border: solid 1px red;
+}
+
+:root {
+  --Pale-Blue: hsl(243, 100%, 93%);
+  --Grayish-Blue: hsl(229, 7%, 55%);
+  --Dark-Blue: hsl(228, 56%, 26%);
+  --Very-Dark-Blue: hsl(229, 57%, 11%);
 }
